@@ -1,0 +1,46 @@
+.semaforo-container {
+    background-color: black;
+    width: 400px;
+    height: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.semaforo {
+    &__farol {
+      &-red{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 15px;
+        transition: 0.3s ease;
+        background-color: red;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      &-orange{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 15px;
+        transition: 0.3s ease;
+        background-color: orange;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      &-green{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 15px;
+        transition: 0.3s ease;
+        background-color: green;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+    }
+}
