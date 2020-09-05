@@ -1,0 +1,75 @@
+.semaforo-container {
+  background-color: black;
+  width: 400px;
+  height: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+}
+
+.semaforo__farol-red {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 15px;
+  transition: 0.3s ease;
+  background-color: #741616;
+  margin-right: auto;
+  margin-left: auto;
+}
+.semaforo__farol-red-active {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 15px;
+  transition: 0.3s ease;
+  margin-right: auto;
+  margin-left: auto;
+}
+.semaforo__farol-orange {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 15px;
+  transition: 0.3s ease;
+  background-color: #755211;
+  margin-right: auto;
+  margin-left: auto;
+}
+.semaforo__farol-orange-active {
+  background-color: orange;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 15px;
+  transition: 0.3s ease;
+  margin-right: auto;
+  margin-left: auto;
+}
+.semaforo__farol-green {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 15px;
+  transition: 0.3s ease;
+  background-color: #2a522a;
+  margin-right: auto;
+  margin-left: auto;
+}
+.semaforo__farol-green-active {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 15px;
+  transition: 0.3s ease;
+  margin-right: auto;
+  margin-left: auto;
+}
